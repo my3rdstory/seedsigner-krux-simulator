@@ -1,3 +1,5 @@
+> **실행 환경 안내:** 본 소스는 제작자의 컴퓨터에서 실행을 확인했지만, 모든 사용자의 컴퓨터에서 실행된다고 보장하지 않습니다. 운영체제, 드라이버, Python 버전, 하드웨어와 의존성 차이로 오류가 발생할 수 있습니다. 각자의 환경에 맞는 수정과 문제 해결은 LLM을 활용해 직접 진행하십시오.
+
 # BTC Inspector: SeedSigner + Krux Windows Simulator Panel
 
 SeedSigner 데스크톱 에뮬레이터와 Krux Amigo 시뮬레이터를 하나의 Windows 창에 나란히 띄워, 같은 입력을 서로 다른 오픈소스 구현에 독립적으로 넣어 보는 교육용 검증 도구입니다. 기본 배치는 왼쪽 SeedSigner, 오른쪽 Krux입니다.
