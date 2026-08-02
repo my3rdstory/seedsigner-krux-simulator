@@ -1,0 +1,93 @@
+# Compiled Sources
+###################
+*.o
+*.a
+*.elf
+*.bin
+*.map
+*.hex
+*.kff
+*.dis
+*.exe
+
+# Packages
+############
+
+# Logs and Databases
+######################
+*.log
+
+# VIM Swap Files
+######################
+*.swp
+
+# Build directories
+######################
+build/
+build-*/
+# mkdocs site output (site_dir: public)
+public/
+# pytest-cov HTML report
+htmlcov/
+
+# Test failure outputs
+######################
+tests/results/*
+
+# Python cache files
+######################
+__pycache__/
+.pytest_cache
+*.pyc
+*.egg-info
+
+# Customized Makefile/project overrides
+######################
+GNUmakefile
+user.props
+
+# Generated rst files
+######################
+genrst/
+
+# MacOS desktop metadata files
+######################
+.DS_Store
+
+.vagrant
+
+.config.mk
+.flash.conf.json
+in.txt
+out.txt
+sitemap.xml.gz
+*.bin
+*.bin.sig
+*.bin.sha256.txt
+*.kfpkg
+*.kfpkg.sig
+*.kfpkg.sha256.txt
+*.zip
+*.zip.sig
+*.zip.sha256.txt
+memzip-files.c
+memzip-files.zip
+.coverage
+.coverage.*
+privkey.pem
+pubkey.pem
+simulator/krux-screenshots
+simulator/screenshots
+simulator/sd
+simulator/flash
+
+# allow files: firmware.bin, .sig, .sha256.txt
+!tests/*
+!tests/files/*
+
+# ignore build-release files
+krux-*/ktool*
+
+# IDE files
+.vscode
+.claude

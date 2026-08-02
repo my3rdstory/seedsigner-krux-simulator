@@ -1,0 +1,1 @@
+../m5stickv/_mnemonic-24-word.txt

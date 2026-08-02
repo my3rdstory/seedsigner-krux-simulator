@@ -1,0 +1,26 @@
+# Python caches and local virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+**/.venv/
+
+# Local runtime logs and temporary reports
+logs/
+*.log
+htmlcov/
+.pytest_cache/
+
+# Simulator state and test data
+panel-state.json
+seedsigner/simulator-data/
+krux/simulator/flash/
+krux/simulator/sd/
+krux/simulator/screenshots/
+
+# Local editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+

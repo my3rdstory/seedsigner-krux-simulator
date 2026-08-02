@@ -1,0 +1,1 @@
+../maixpy_dock/config_defaults.mk

@@ -1,0 +1,33 @@
+[submodule "tools/kconfig/Kconfiglib"]
+	path = tools/kconfig/Kconfiglib
+	url = https://github.com/ulfalizer/Kconfiglib.git
+[submodule "components/kendryte_sdk/kendryte-standalone-sdk"]
+	path = components/kendryte_sdk/kendryte-standalone-sdk
+	url = https://github.com/sipeed/kendryte-standalone-sdk
+[submodule "components/micropython/core"]
+	path = components/micropython/core
+	url = https://github.com/selfcustody/micropython.git
+[submodule "components/micropython/port/src/lvgl/lv_bindings"]
+	path = components/micropython/port/src/lvgl/lv_bindings
+	url = https://github.com/littlevgl/lv_binding_micropython.git
+[submodule "components/spiffs/core"]
+	path = components/spiffs/core
+	url = https://github.com/pellepl/spiffs.git
+[submodule "tools/spiffs/mkspiffs"]
+	path = tools/spiffs/mkspiffs
+	url = https://github.com/igrr/mkspiffs.git
+[submodule "components/micropython/port/src/ulab/micropython-ulab"]
+	path = components/micropython/port/src/ulab/micropython-ulab
+	url = https://github.com/Neutree/micropython-ulab.git
+[submodule "components/micropython/port/src/secp256k1-embedded"]
+	path = components/micropython/port/src/secp256k1-embedded
+	url = https://github.com/diybitcoinhardware/secp256k1-embedded
+[submodule "components/micropython/port/src/uhashlib"]
+	path = components/micropython/port/src/uhashlib
+	url = https://github.com/selfcustody/uhashlib
+[submodule "components/micropython/port/src/qrcode"]
+	path = components/micropython/port/src/qrcode
+	url = https://github.com/selfcustody/qrcode
+[submodule "tools/flash/kflash_py"]
+	path = tools/flash/kflash_py
+	url = https://github.com/sipeed/kflash.py

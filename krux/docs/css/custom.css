@@ -1,0 +1,54 @@
+.md-typeset img {
+  margin: 0 0 0.4em 0.8em !important;
+}
+
+.md-typeset img.twemoji {
+  margin: 0 !important;
+}
+
+/* Pre-rendered display equations (see render_docs_math.py). Centered blocks,
+   never wider than the column on small screens. */
+.md-typeset img.math-display {
+  display: block;
+  margin: 0.8em auto !important;
+  max-width: 100%;
+}
+
+.md-typeset h5 {
+  color: black;
+  text-transform: none;
+}
+
+img.amigo {
+  width: 16%;
+  min-width: 100px;
+}
+
+img.amigo.big {
+  width: 21%;
+}
+
+img.m5stickv {
+  width: 13%;
+  min-width: 84px;
+}
+
+img.m5stickv.big {
+  width: 17%;
+}
+
+/* Default state: no alignment */
+.align-right {
+  float: none;
+}
+
+/* Media query for screens larger than 768px */
+@media (min-width: 768px) {
+  .align-right {
+    float: right;
+  }
+}
+
+.margin-left {
+  margin-left: 0.8em;
+}

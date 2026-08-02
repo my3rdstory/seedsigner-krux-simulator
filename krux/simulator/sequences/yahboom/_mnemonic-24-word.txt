@@ -1,0 +1,1 @@
+../amigo/_mnemonic-24-word.txt

@@ -1,0 +1,18 @@
+include _wait-for-logo.txt
+
+# Navigate to Tools
+x3 press BUTTON_B
+press BUTTON_A
+
+screenshot tools-options.png
+
+# Device tests
+press BUTTON_B
+press BUTTON_A
+
+screenshot device-tests-options.png
+
+# Check SD Card
+press BUTTON_A
+
+screenshot check-sd-card.png

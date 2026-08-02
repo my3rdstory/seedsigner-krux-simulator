@@ -1,0 +1,14 @@
+include _wait-for-logo.txt
+
+# Navigate to via QR
+x3 press BUTTON_A
+
+qrcode 24-word-mnemonic.png
+wait 0.5
+
+# Confirm words
+press BUTTON_A
+press BUTTON_A
+
+# Confirm wallet
+press BUTTON_A

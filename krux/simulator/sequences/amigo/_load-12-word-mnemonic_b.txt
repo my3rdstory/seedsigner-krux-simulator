@@ -1,0 +1,1 @@
+../m5stickv/_load-12-word-mnemonic_b.txt

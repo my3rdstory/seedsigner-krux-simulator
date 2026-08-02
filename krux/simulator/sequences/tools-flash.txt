@@ -1,0 +1,28 @@
+include _wait-for-logo.txt
+
+# Navigate to Tools
+x3 press BUTTON_B
+press BUTTON_A
+
+# Go to Flash Tools
+x4 press BUTTON_B
+press BUTTON_A
+
+screenshot flash-tools.png
+
+# Flash Map
+press BUTTON_A
+
+# wait generation of the map (slow on simulator)
+# remember to uncomment lines on flash_tools.py
+wait 5
+
+#screenshot flash-map.png
+
+# Back
+press BUTTON_A
+
+# Go to Erase user's data
+x2 press BUTTON_B
+press BUTTON_A
+screenshot erase-data.png

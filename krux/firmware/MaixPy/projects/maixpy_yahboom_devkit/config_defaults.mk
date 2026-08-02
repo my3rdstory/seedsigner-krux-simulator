@@ -1,0 +1,1 @@
+../maixpy_yahboom/config_defaults.mk

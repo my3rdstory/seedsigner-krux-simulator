@@ -1,0 +1,9 @@
+include _wait-for-logo.txt
+
+# Navigate to Shutdown
+press BUTTON_C
+x2 press BUTTON_A
+
+wait 0.1
+screenshot shutdown.png
+

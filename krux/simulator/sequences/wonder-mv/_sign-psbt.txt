@@ -1,0 +1,1 @@
+../amigo/_sign-psbt.txt

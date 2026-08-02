@@ -1,0 +1,33 @@
+include _load-12-word-mnemonic.txt
+
+# Navigate to Sign
+x2 press BUTTON_C
+press BUTTON_A
+
+
+# Sign message, load qr code
+press BUTTON_B
+x2 press BUTTON_A
+
+qrcode message-sha256.png
+wait 0.1
+
+screenshot sign-message-sha256-sign-prompt.png
+
+press BUTTON_A
+
+# screenshot sign-message-signed-message-text.png
+
+x2 press BUTTON_A
+
+# screenshot sign-message-signed-message-qr.png
+
+press BUTTON_A
+
+# screenshot sign-message-public-key-text.png
+
+press BUTTON_A
+
+# screenshot sign-message-public-key-qr.png
+
+press BUTTON_A

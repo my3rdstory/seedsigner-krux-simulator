@@ -1,0 +1,50 @@
+include _wait-for-logo.txt
+
+# Navigate to Tools
+x3 press BUTTON_B
+press BUTTON_A
+
+# Navigate to Datum
+press BUTTON_B
+press BUTTON_A
+
+# Navigate to Via Manual Input
+press BUTTON_B
+press BUTTON_A
+
+# Enter letter a
+press BUTTON_A
+
+# Navigate to Go, enter and proceed
+press BUTTON_C
+x2 press BUTTON_A
+
+# Move to QR code
+press BUTTON_B
+press BUTTON_A
+
+# Cancel update text
+press BUTTON_B
+press_amigo_only BUTTON_A
+
+screenshot standard-qr-code.png
+
+press BUTTON_B
+
+screenshot lines-qr-code.png
+
+press BUTTON_B
+
+screenshot zoomed-qr-code.png
+
+press BUTTON_B
+
+screenshot regions-qr-code.png
+
+press BUTTON_B
+
+screenshot grided-qr-code.png
+
+press BUTTON_A
+
+screenshot qr-viewer.png
